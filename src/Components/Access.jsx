@@ -7,7 +7,7 @@ const Access = () => {
     return (
         <div className='flex items-center justify-center gap-3'>
             <button>
-                <IoPersonAddOutline className='text-lg ' />
+                <IoPersonAddOutline className='text-lg' />
             </button>
             <button>
                 <FaRegBookmark className='text-lg ' />
