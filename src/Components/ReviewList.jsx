@@ -7,7 +7,7 @@ import ReviewHighlighter from './ReviewHighlighter'
 const ReviewList = () => {
     return (
         <>
-            {ReviewData.map(
+            {ReviewData.map( 
                 ({ review_id, reviewer_name, content, date, source, sentiment, topic, rating_review_score, highlight_indices }) => {
                     return (
                         <div key={review_id} className='w-full px-10 py-10'>
